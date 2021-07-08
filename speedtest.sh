@@ -1,6 +1,7 @@
 #!/bin/bash
 
-echo 
-exit
+timestamp() {
+	date +"%F-%T" # current time
+}
 
-speedtest --json > ~/data/speed-20210706-12:45.json
+speedtest --json > ~/data/speed-$(timestamp).json
