@@ -4,4 +4,4 @@ timestamp() {
 	date +"%F-%T" # current time
 }
 
-speedtest --json > ~/data/speed-$(timestamp).json
+speedtest --json > ~/data/speedtest/speed-$(timestamp).json &

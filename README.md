@@ -14,5 +14,11 @@ to run speedtest
 chmod +x speedtest.sh
 ./speedtest.sh
 ```
+## ToDo:
+
+[*] Run in background
+[ ] Run on login
+	* bash_login not working on WSL
+[ ] display the current run after execution 
 
 [1]: https://github.com/sivel/speedtest-cli
